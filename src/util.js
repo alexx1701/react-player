@@ -28,7 +28,7 @@ function Sessions() {
             id: uuidv4(),
             active: false,
             color: ['#472E97', '#C89FD1'],
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=27503"
+            audio: "https://mp3.chillhop.com/serve.php/?mp3=23336"
         }
     ];
 }
