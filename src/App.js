@@ -7,7 +7,7 @@ import Nav from "./components/Nav"
 //Import Styles
 import './styles/app.scss';
 //Import Util
-import data from './util';
+import data from './data';
 
 function App() {
   //ref
@@ -33,6 +33,9 @@ const timeUpdateHandler = (e) => {
       <Nav libraryStatus={libraryStatus} setLibraryStatus={setLibraryStatus}/>
       <Song currentSong={currentSong} /> 
       <Player
+      setSongs={setSongs}
+      setCurrentSong={setCurrentSong}
+      songs={songs}
       audioRef={audioRef} 
       currentSong={currentSong}
       isPlaying={isPlaying} 
