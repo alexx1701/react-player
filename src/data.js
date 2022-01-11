@@ -9,7 +9,7 @@ function Sessions() {
             artist: "Sleepy Fish",
             id: uuidv4(),
             active: true,
-            color: ['#472E97', '#C89FD1'],
+            color: ['#FEB58D', '#FD501C'],
             audio: "https://mp3.chillhop.com/serve.php/?mp3=24822"
         },
         {
@@ -18,7 +18,7 @@ function Sessions() {
             artist: "Parkbench Epiphany",
             id: uuidv4(),
             active: false,
-            color: ['#472E97', '#C89FD1'],
+            color: ['#161F29', '#ED9796'],
             audio: "https://mp3.chillhop.com/serve.php/?mp3=27503"
         },
         {
@@ -27,8 +27,17 @@ function Sessions() {
             artist: "Smile High, Teddy Roxpin",
             id: uuidv4(),
             active: false,
-            color: ['#472E97', '#C89FD1'],
+            color: ['#234364', '#6797A3'],
             audio: "https://mp3.chillhop.com/serve.php/?mp3=23336"
+        },
+        {
+            name: "When I Get Up In the Morn...",
+            cover: "https://chillhop.com/wp-content/uploads/2021/07/5821e04fd52fa668a0b9890f213cbb12e454cc6b-1024x1024.jpg",
+            artist: "Middle School",
+            id: uuidv4(),
+            active: false,
+            color: ['#F66432', '#8A6057'],
+            audio: "https://mp3.chillhop.com/serve.php/?mp3=22933"
         }
     ];
 }
